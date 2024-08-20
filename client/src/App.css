@@ -1,0 +1,624 @@
+*{
+  font-family:sans-serif;
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  height: 60px;
+  width: 90%;
+  padding: 5px 50px;
+  justify-content: center;
+  align-items: center;  
+}
+
+.header .lan{
+  display: flex;
+  font-size: 28px;
+  justify-content: space-between;
+  width: 110px;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+  font-weight: 400;
+}
+
+.header .cen{
+  display: flex;
+  align-items: center;
+  font-size: large;
+  justify-content: space-evenly;
+  width: 400px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  height: 40px;
+  box-shadow: 0 0 5px rgba(91, 89, 89, 1);
+  margin-right: 340px;
+  margin-left: 440px;
+}
+
+
+.header .proficon{
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  font-size: 25px;
+  color: rgb(82, 79, 79);
+  align-items: center;
+  border: 0.2px solid black;
+  padding: 10px 10px;
+  border-radius: 25px;
+}
+
+.header .proficon #proficonn{
+  margin-right: 8px;
+}
+
+.header .proficon .profname{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.register{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.register h2{
+  font-size: 25px;
+}
+
+.register .regin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.register form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register form input{
+  height: 27px;
+  width: 350px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(195, 188, 188);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register form button{
+  width: 370px;
+  padding: 8px 10px;
+  margin-top: 13px;
+  border-radius: 20px;
+  border: 1px solid rgb(195, 188, 188);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.register .redir{
+  margin-top: 15px;
+}
+
+.account nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 60px ;
+  gap: 70px;
+}
+
+.account .profpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 17px;
+}
+
+.profpage button{
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 8px 15px;
+  width: 300px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ppinbox{
+  text-align: center;
+  margin-top: 50px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pplink1{
+  width: 20%;
+  text-decoration: none;
+  color:white;
+  background-color: red;
+  padding: 9px;
+  gap:10px;
+  border-radius: 20px;
+}
+
+.placepage .nppnew form{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.placepage .nppnew form input{
+  width: 90%;
+  border: 1px solid rgb(195, 191, 191);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.placepage .nppnew form h2{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.placepage .nppnew form p{
+  margin-left: 10px;
+  color: rgb(130, 130, 130);
+  margin-top: -15px;
+}
+
+
+.placepage .nppnew form .imgbtn{
+  width: 130px;
+  height: 80px;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 30px;
+  border: 1px solid rgb(120, 120, 120);
+  margin-bottom: 15px;
+}
+
+.placepage .nppnew form .imglink{
+  display: flex;
+  align-items:baseline;
+  margin-bottom: 25px;
+}
+
+.placepage .nppnew form .imglink input{
+  width: 82%;
+  border: 1px solid rgb(195, 191, 191);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.placepage .nppnew form .imglink button{
+  width: 110px;
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.placepage .nppnew form .npperks{
+  display:flex;
+  align-items: center;
+}
+
+.placepage .nppnew form label{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 5px;
+  border: 1px solid rgb(174, 174, 174);
+  padding: 10px 15px;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.placepage .nppnew form label #nppi{
+  font-size: 35px;
+  margin-right: 5px;
+}
+
+.placepage .nppnew form label input{
+  margin-top: 8px;
+  margin-left: -8px;
+}
+
+.placepage .nppnew form .nppsave{
+  width: 90%;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: none;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.placepage .nppnew form .liandadd{
+  display: flex;
+  gap: 50px;
+}
+
+.placepage .nppnew form .plinks{
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+}
+
+.placepage .nppnew form .plinks img{
+  border-radius: 20px;
+}
+
+.placepage .nppnew form .plusbtn{
+  position: relative;
+  right: 25px;
+}
+
+.newaccpage .placemainbox{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newaccpage .placemainbox .indbox{
+  display: flex;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px gray solid;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  width: 80%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.newaccpage .placemainbox .indbox .indimg{
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  flex-grow: 0.001;
+}
+
+.newaccpage .placemainbox .indbox .indinfo{
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.newaccpage .placemainbox .indbox .indinfo h4{
+  font-weight: 550;
+}
+
+.indimgicon{
+  position: relative;
+  color: white;
+  background-color: black;
+  right: 35px;
+  bottom: 10px;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.indimgicon1{
+  position: relative;
+  color: white;
+  background-color: black;
+  right: 155px;
+  bottom: 10px;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.indexpage{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:0px 5px;
+  padding: 0px 30px;
+}
+
+.indexpage .homeindbox{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.indexpage .homeindimg img{
+  width: 340px;
+  height: 260px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.indexpage .homeindbox h3{
+  font-size: 15px;
+  font-weight: 100;
+  position: relative;
+  bottom: 30px;
+  color: gray;
+}
+
+.indexpage .homeindbox h4{
+  font-size: 16px;
+  font-weight: light;
+  position: relative;
+  bottom: 5px;
+  color: black;
+}
+
+.indexpage .homeindbox h5{
+  font-size: 14px;
+  position: relative;
+  bottom: 50px;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.indexpage .homeindbox span{
+  font-weight:800;
+}
+
+.indexpage .homeindbox .indboxhead{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 5px;
+}
+
+.singleplace{
+  padding: 10px 170px;
+}
+
+.singleplace h1{
+  font-size: 30px;
+  font-weight: 540;
+}
+
+.singleplace .spphotosmain{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  flex-shrink: 1;
+  gap: -10px;
+  margin-bottom: -10px;
+}
+
+.singleplace .spphotosmain .spp1 img{
+  width: 578px;
+  aspect-ratio: 3/2;
+  cursor: pointer;
+}
+
+.singleplace .spphotosmain .spp23 img{
+  width: 285px;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.singleplace .spphotosmain .spp45 img{
+  width: 285px;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.singleplace .sppo{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px black solid;
+  width:150px;
+  justify-content: center;
+  padding: 6px 5px;
+  background-color: white;
+  border-radius: 5px;
+  left: 985px;
+  bottom: 60px;
+  opacity: 0.9;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sap .sap1{
+  padding: 10px 150px;
+  display: grid;
+  justify-content: center;
+}
+
+.sap .sap1 img{
+  width: 800px;
+  aspect-ratio: 3/2;
+  margin-bottom: 20px;
+}
+
+.sap .sap1 .sapback{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px;
+  position: relative;
+  left: 850px;
+  position: fixed;
+  margin-left: 400px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.singleplace h2{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+.singleplace p{
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+}
+
+.singleplace .desc h4{
+  font-weight: 500;
+  line-height: 25px;
+  width: 60%;
+}
+
+.singleplace .cio{
+  margin-top: 50px;
+}
+
+.singleplace .probox{
+  border: 1px solid black;
+  padding: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  left: 850px;
+  bottom: 370px;
+}
+
+.singleplace .probox button{
+  padding: 8px;
+  width: 250px;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.singleplace .probox .cio{
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+
+.singleplace .probox .cio input{
+  padding: 6px;
+  border-radius: 5px;
+
+}
+
+.singleplace .probox .maxg{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+  gap: 5px;
+  align-items: center;
+  position: relative;
+  left: 85px;
+}
+
+.singleplace .probox .pbgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.singleplace .probox .maxg input{
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.singleplace .probox .nameinfo{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singleplace .probox .nameinfo input{
+  padding: 7px;
+  border-radius: 12px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  width: 250px;
+}
+
+.bookingpage{
+  margin-top: 30px;
+  padding: 0px 200px;
+}
+
+.bookings{
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  gap: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.bookings img{
+  width: 250px;
+  height: 180px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 25px;
+}
+
+.bookings .bookingcnt{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
